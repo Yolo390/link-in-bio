@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Hack, 'Open Sans', sans-serif;
+	color: #cfc9c2;
+	background-color: #24283b;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	margin-top: 2.6em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header > img {
+	width: 6em;
+	border: 1px solid #fff;
+	box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+	border-radius: 100%;
+}
+
+header > h1 {
+	margin-top: .8em;
+	font-size: .8em;
+	font-weight: bold;
+	border-radius: 1em;
+	background-color: #2C3043;
+	color: #fff;
+	padding: 0.3em 0.6em;
+	border: 1px solid #fffa;
+}
+
+main > ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 2em;
+	max-width: 480px;
+}
+
+main > ul > li {
+	background-color: #2C3043;
+	border: 1px solid #908caa;
+	border-radius: 10em;
+	margin: 1.4em 0;
+	box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}
+
+main > ul > li > a {
+	color: #eb6f92;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: .5em;
+	padding: 1em;
+}
+
+main > ul > li > a:hover {
+	color: #ebbcba;
+}
+
+.github, .twitch {
+	margin-left: -10px;
+}
+
+.linkedin {
+	margin-left: 10px;
+}
