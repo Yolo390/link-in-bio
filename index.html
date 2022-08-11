@@ -4,15 +4,49 @@
 		<meta charset="utf-8" />
 		<title>Flo Slv - Links</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 		<link
 			rel='stylesheet'
 			href='https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css'
 		>
 		<link rel='stylesheet' href='./index.css' />
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js'></script>
+		<script src='https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js'></script>
+
+		<script>
+			window.addEventListener('DOMContentLoaded', () => {
+				VANTA.BIRDS({
+					el: "#vanta",
+					mouseControls: true,
+					touchControls: true,
+					gyroControls: true,
+					minHeight: 200.00,
+					minWidth: 200.00,
+					scale: 1.00,
+					scaleMobile: 1.00,
+					backgroundAlpha: 0.0,
+					color2: 0xff00f0,
+					wingSpan: 40.00,
+					separation: 100.00,
+					alignment: 77.00,
+					cohesion: 5.00,
+					quantity: 1.00
+				});
+
+				setTimeout(() => {
+					const app = document.querySelector('app')
+					app.style.opacity = 1
+					app.style.filter = 'blur(0px)'
+				}, 1000)
+			});
+		</script>
 	</head>
 
 	<body>
-		<app>
+		<div id='vanta'></div>
+
+		<app class='animated'>
 			<header>
 				<img src='images/face_co.png' alt='Flo-Slv' />
 
