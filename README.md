@@ -1,5 +1,5 @@
 # link-in-bio
-Link in bio for my Instagram profile
+Link-in-bio for my social network profiles
 
 <a href='https://flo-slv.dev' target='_blank'>flo-slv.dev</a>
 <br /><br />
