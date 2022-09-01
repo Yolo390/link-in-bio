@@ -1,7 +1,7 @@
 # link-in-bio
 Link-in-bio for my social network profiles
 
-<a href='https://flo-slv.dev' target='_blank'>flo-slv.dev</a>
+<a href='https://links.flo-slv.dev/' target='_blank'>links.flo-slv.dev</a>
 <br /><br />
 
 ---
