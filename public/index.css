@@ -38,8 +38,8 @@ header > img {
 }
 
 header > h1 {
-	margin-top: .8em;
-	font-size: .8em;
+	margin-top: 0.8em;
+	font-size: 0.8em;
 	font-weight: bold;
 	border-radius: 1em;
 	background-color: #2C3043;
@@ -93,4 +93,10 @@ main > ul > li > a:hover {
 
 .linkedin {
 	margin-left: 10px;
+}
+
+svg {
+	width: 26px;
+	height: 26px;
+	fill: #ebbcba;
 }
