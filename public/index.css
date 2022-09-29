@@ -83,10 +83,6 @@ main > ul > li > a {
 	padding: 1em;
 }
 
-main > ul > li > a:hover {
-	color: #ebbcba;
-}
-
 .github, .twitch {
 	margin-left: -10px;
 }
