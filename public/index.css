@@ -33,6 +33,8 @@ header {
 header > img {
 	width: 6em;
 	border: 1px solid #fff;
+	-webkit-box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+	-moz-box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 	box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 	border-radius: 100%;
 }
@@ -54,7 +56,11 @@ app {
 
 app.animated {
 	opacity: 0;
+	-webkit-filter: blur(10px);
 	filter: blur(10px);
+	-webkit-transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+	-o-transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 	transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
 
@@ -67,9 +73,16 @@ main > ul {
 
 main > ul > li {
 	background-color: #2C3043;
+	-webkit-border: 1px solid #908caa;
+	-moz-border: 1px solid #908caa;
+	-o-border: 1px solid #908caa;
 	border: 1px solid #908caa;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
 	border-radius: 10em;
 	margin: 1.4em 0;
+	-webkit-box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+	-moz-box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 	box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
@@ -79,7 +92,7 @@ main > ul > li > a {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap: .5em;
+	gap: 0.5em;
 	padding: 1em;
 }
 
